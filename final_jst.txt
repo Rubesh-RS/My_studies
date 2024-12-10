@@ -1,0 +1,26 @@
+Key takeaways from this chapter
+Thank you for spending the time to gain the most important skill of the era.
+
+Final Project
+
+Don't stop here, I have found some datasets from Kaggle for you to practice with
+
+1. https://www.kaggle.com/unanimad/dataisbeautiful
+
+2. https://www.kaggle.com/manjeetsingh/retaildataset
+
+3. https://www.kaggle.com/bigquery/google-analytics-sample
+
+4. https://www.kaggle.com/hackerrank/developer-survey-2018
+
+Checkout the kernels in each of these datasets to draw some inspiration and come up with your own insights.
+
+Hope you have learned a lot Like I always say,
+
+Keep Learning! Keep Enjoying!
+
+
+
+7271cN32K598ThR1XA
+
+https://www.guvi.in/share-certificate/7271cN32K598ThR1XA
