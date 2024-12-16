@@ -1,25 +1,14 @@
-import pandas as pd
-import numpy as np
+import matplotlib.pyplot as plt
 
-# Set random seed for reproducibility
-np.random.seed(42)
+# First subplot
+plt.subplot(1, 2, 1)
+plt.title("Left Plot")
+plt.plot([1, 2, 3], [4, 5, 6])
 
-# Generate synthetic data
-regions = ['North', 'South', 'East', 'West']
-product_categories = ['Electronics', 'Clothing', 'Furniture', 'Groceries']
+# Second subplot
+plt.subplot(1, 2, 2)
+plt.title("Right Plot")
+plt.plot([1, 2, 3], [6, 5, 4])
 
-data = {
-    'Region': np.random.choice(regions, size=500),
-    'Sales': np.random.uniform(1000, 10000, size=500).round(2),
-    'Profit': np.random.uniform(200, 5000, size=500).round(2),
-    'Marketing_Spend': np.random.uniform(500, 3000, size=500).round(2),
-    'Product_Category': np.random.choice(product_categories, size=500)
-}
-
-# Create a DataFrame
-df = pd.DataFrame(data)
-
-# Save to CSV
-df.to_csv('sales_data.csv', index=False)
-
-print("Synthetic dataset 'sales_data.csv' created!")
+plt.tight_layout()  # Adjust spacing
+plt.show()
